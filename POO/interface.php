@@ -1,7 +1,4 @@
 <?php
-
-use Carro as GlobalCarro;
-
 interface veiculo {
     public function acelerar($velocidade);
     public function freiar($velocidade);

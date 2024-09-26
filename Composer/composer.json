@@ -1,0 +1,19 @@
+{
+    "name": "vitor/composer",
+    "description": "Iniciando estudo sobre o composer",
+    "autoload": {
+        "psr-4": {
+            "Vitor\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitor Hugo",
+            "email": "vitorhugosanchespy@gmail.com"
+        }
+    ],
+    "require": 
+    {
+        "monolog/monolog":"3.0.*"
+    }
+}
